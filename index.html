@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fifetoyi Femi-Balogun</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            padding: 80px 0 40px;
+            text-align: center;
+        }
+        
+        .name {
+            font-size: 3.2rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 1.3rem;
+            color: #495057;
+            font-weight: 400;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .content {
+            padding: 40px 0 60px;
+        }
+        
+        .summary {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .summary h2 {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: #000;
+            font-weight: 600;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .summary h2:after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background-color: #000;
+        }
+        
+        .summary p {
+            font-size: 1.1rem;
+            margin-bottom: 24px;
+            color: #343a40;
+        }
+        
+        .social-links {
+            padding: 50px 0 70px;
+            text-align: center;
+        }
+        
+        .social-links h3 {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            color: #495057;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+        
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            color: #000;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            border: 1.5px solid #000;
+        }
+        
+        .social-icons a:hover {
+            background-color: #000;
+            color: #fff;
+            transform: translateY(-3px);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 25px 0;
+            color: #6c757d;
+            font-size: 0.95rem;
+            border-top: 1px solid #e9ecef;
+            margin-top: 20px;
+        }
+        
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #dee2e6, transparent);
+            margin: 40px auto;
+            max-width: 600px;
+        }
+        
+        @media (max-width: 768px) {
+            .name {
+                font-size: 2.5rem;
+            }
+            
+            .title {
+                font-size: 1.1rem;
+                padding: 0 20px;
+            }
+            
+            .summary {
+                padding: 0 15px;
+            }
+            
+            .summary p {
+                font-size: 1.05rem;
+            }
+            
+            .social-icons {
+                gap: 15px;
+            }
+            
+            .social-icons a {
+                width: 42px;
+                height: 42px;
+                font-size: 1.1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            header {
+                padding: 60px 0 30px;
+            }
+            
+            .name {
+                font-size: 2.2rem;
+            }
+            
+            .social-icons {
+                flex-wrap: wrap;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="name">Fifetoyi Femi-Balogun</h1>
+            <p class="title">Software Engineer</p>
+        </header>
+        
+        <section class="content">
+            <div class="summary">
+                <h2>Professional Summary</h2>
+                <p>I'm a Software Engineer with proven experience delivering scalable, data-driven microservices and real-time data infrastructure. Proficient in backend engineering, with a strong grasp of data structures & algorithms,
+design patterns, data modeling, system architecture, and cloud-native application design.</p>
+
+                <p>Skilled in managing the end-to-end lifecycle of distributed systems, including data ingestion, transformation, and delivery using streaming and batch
+pipelines.</p>
+                
+                <p>I currently work with Hardcore Biometric Systems where I build secure biometric services and Enterprise Content Management systems for the Nigeria Police Force.</p>
+                
+                <p>When I'm not designing scalable systems, I'm pushing my muscles to failure at the gym :)</p>
+            </div>
+        </section>
+        
+        <div class="divider"></div>
+        
+        <section class="social-links">
+            <h3>CONNECT WITH ME</h3>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/fifetoyi" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Fifetoyi" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:fifetoyi@gmail.com" title="Email"><i class="far fa-envelope"></i></a>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Fifetoyi Femi-Balogun. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
